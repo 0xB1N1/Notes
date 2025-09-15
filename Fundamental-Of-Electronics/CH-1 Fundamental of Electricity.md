@@ -1,111 +1,204 @@
+```yaml
+---
+date:  15/09/25  
+author: Sameer Saini
+reason: 0x45
+title: Fundamental Of Electricity
+---
+```
 
-[Date] 15/09/25
-[Author] Sameer Saini
-[Reason] Shaping Myself to Contribute
+---
 
-# Objective
+## 🎯 Objective
 
-*  After Completing this chapter, I Know 
-	* Define Matter, element, molecule.
-	* List the parts of an atoms
-	* Define the valence shell of an atom
-	* Identify the unit for measuring current
-	* Draw the symbol used to present current in a circuit
-	* Describe the difference between conductors and insulators and semiconductors
-	* Define difference between potential, electromotive force and voltage.
-	* Draw the symbol used to represent voltage
-	* Identify the unit used to measure voltage
+After completing this chapter, I will be able to:
 
+- Define **matter, element, molecule**.
+    
+- List the **parts of an atom**.
+    
+- Define the **valence shell** of an atom.
+    
+- Identify the **unit for measuring current**.
+    
+- Draw the **symbol for current** in a circuit.
+    
+- Explain the **difference between conductors, insulators, and semiconductors**.
+    
+- Define the difference between **potential, electromotive force (emf), and voltage**.
+    
+- Draw the **symbol for voltage**.
+    
+- Identify the **unit for measuring voltage**.
+    
 
-## Matter
+---
 
-* Any thing that occupies space and has weight is called matter.
-* The absence of matter is space
+## 1. Matter
 
-## Element 
+- Anything that **occupies space** and has **mass/weight** is called **matter**.
+    
+- The absence of matter is called **space**.
+    
 
-* It is the basic building block of nature and it cannot be reduced to a simpler substance by chemical means.
-* There are 118 known elements in the modern periodic table. There are 94 elements which are found naturally and 24 are synthesized in the laboratories (from americium to oganesson).
-* Elements are distinguish by the presence of no of proton and neutron in there atom.
+---
 
-## Inside A Atom
+## 2. Element
 
-* **Nucleus** :- Located in the center of the atom, which has other subatomic particles.
-* **Proton** :- Positively Charged particles inside nucleus.
-* **Neutron** :- Uncharged particles inside nucleus.
-* **Electron** :- Negative Charged particles that orbit around nucleus
+- The **basic building block of nature**; it cannot be reduced to a simpler substance by chemical means.
+    
+- Modern periodic table has **118 known elements**.
+    
+    - **94** occur naturally.
+        
+    - **24** are synthetic (from _Americium → Oganesson_).
+        
+- Elements are distinguished by the **number of protons and neutrons** in their atoms.
+    
 
-	[https://uen.pressbooks.pub/app/uploads/sites/20/2022/01/Figure-2.2-Structure-of-an-Atom.jpg](Atom IMage).
+---
 
-* **Atomic Number** :- There number of proton in nucleus of the atoms
-* **Atomic Weight** :- The mass of the atom, Determined by the total no proton and neutron in the nucleus.
-* **Shell** :- Electrons orbital path, Its a concentric circles around nucleus filled in the sequence
-* **Valence Shell** :- The outermost shell of the atom, [K,L,M,N,O,P,Q]
-* Valence :- The no. of electron contained in the valence shell
+## 3. Inside an Atom
 
-	[https://images.theconversation.com/files/126483/original/image-20160614-29205-4s6tgg.png](Atom Shell Image).
+- **Nucleus** → Central core containing protons & neutrons.
+    
+- **Proton** → Positively charged particle inside the nucleus.
+    
+- **Neutron** → Neutral (uncharged) particle inside the nucleus.
+    
+- **Electron** → Negatively charged particle orbiting the nucleus.
+    
 
-## Conductors
+🔹 **Atomic Number** → Number of protons in the nucleus.  
+🔹 **Atomic Mass** → Total number of protons + neutrons.  
+🔹 **Shells** → Paths of electrons around nucleus (K, L, M, N, O, P, Q).  
+🔹 **Valence Shell** → Outermost shell.  
+🔹 **Valence** → Number of electrons in the valence shell.
 
-* Materials that contain large amount of free electrons or The materials that have 3 or fewer electrons in there valance shell, its a good conductors.
-* The conductivity of a material is defined by that how easily a element allow the flow of electrical charge (electrons/ions) through it.
-* **Silver** [Highest Conductivity] --> **Copper** --> **Gold** --> **Aluminum** --> **Tungsten** --> **Iron** --> **Nichrome**. 
+📷 _Atom Image:_ [Link](https://uen.pressbooks.pub/app/uploads/sites/20/2022/01/Figure-2.2-Structure-of-an-Atom.jpg)  
+📷 _Shell Image:_ [Link](https://images.theconversation.com/files/126483/original/image-20160614-29205-4s6tgg.png)
 
-## Insulators
+---
 
-* Material that prevent the flow of electrons or ions, stabilizing them-self by absorbing valance electors or electrons are too tightly bound that they can not freely move
-* **Mica** [Highest] --> **Glass** --> **Teflon** --> **Paper** --> **Rubber** --> **Bakelite** --> **Oils** --> **Procelain** --> **Air**
-* They are 5 or more electrons in the valance shell.
+## 4. Conductors
 
-## SemiConductors
+- Materials with **many free electrons** (usually ≤ 3 electrons in valence shell).
+    
+- Allow easy flow of electric current.
+    
+- **Examples (highest to lower conductivity):**  
+    **Silver → Copper → Gold → Aluminum → Tungsten → Iron → Nichrome**
+    
 
-* Can be altered to function as either conductors or insulators.
-* Element :- Germanium (Ge), Carbon (C), Silicon (Si), Semiconductor made from them are called intrinsic (Pure), conductivity depends on only temperature.
-* There are also doped semiconductors, were impurities are added.
+---
 
+## 5. Insulators
 
-## Super Conductor
+- Materials that **resist the flow of electrons/ions**.
+    
+- Electrons are tightly bound in the valence shell (usually ≥ 5 electrons).
+    
+- **Examples (strongest to weaker):**  
+    **Mica → Glass → Teflon → Paper → Rubber → Bakelite → Oils → Porcelain → Air**
+    
 
-* The material which exhibits Zero electrical resistance and expels magnetic field at cooled below certain critical temperature.
-* When they cool down electrons not collide and can flow the electricity with out decay.
-* They are also expel magnetic fields from inside so either they repel it or make it float (Magnetic Levitation).
-* Ex :- Ceramics
-## Negative and Positive charge Ion
+---
 
-* **Negative Ion** :- A negative charged atoms, Taken electron
-* **Positive Ion** :- A positive Charged Ions, Given Electron
-* **Ionization** :- The process of gaining and loosing electrons,
+## 6. Semiconductors
 
-## Current 
+- Materials that behave **between conductors and insulators**.
+    
+- **Intrinsic (pure):** Germanium (Ge), Carbon (C), Silicon (Si).
+    
+- Conductivity depends on **temperature**.
+    
+- **Extrinsic (doped):** Impurities added to control conductivity.
+    
+    - **n-type** (extra electrons)
+        
+    - **p-type** (holes/positive carriers).
+        
 
-* Movement of electrons from negatively charged atom to positively charged atom.
-* Represented as ***I***.
+---
 
-## Coulomb
+## 7. Superconductors
 
-* ***6.24 x 10^18***
-* Represented as ***C***
+- Materials that exhibit **zero resistance** when cooled below a critical temperature.
+    
+- Electrons flow without collision → no energy loss.
+    
+- Expel magnetic fields (Meissner effect) → enable **magnetic levitation**.
+    
+- Example: **Special ceramics**.
+    
 
-## Ampere
+---
 
-* Define as the **One Coulomb moving  past a single point in one sec.**
-* Current Measured in ***amperes***.
-* Represented by ***A***
+## 8. Ions
 
-## Potential
+- **Negative Ion (Anion):** Atom that gains electrons.
+    
+- **Positive Ion (Cation):** Atom that loses electrons.
+    
+- **Ionization:** Process of gaining or losing electrons.
+    
 
-* The ability of the source to perform electrical work.
-* The Difference of potential causes electrons to move in a circuit called ***Electromotive Force (emf) or Voltage***
+---
 
-## Voltage
+## 9. Current
 
-* The force that moves the electron in the circuit, or can say a pump or pressure.
-* Represented by ***E***.
-* Unit of measurement called the ***Volt***.
+- Flow of electrons from **negative terminal → positive terminal**.
+    
+- Represented by: **I**
+    
 
-## Resistance
+---
 
-* Opposition to the flow of electron, it depends on ***Size, Shape, or Temp***.
-* Measured in ***Ohms***.
-* Represented by Greek letter **Omega** ***Ω***.
+## 10. Coulomb
 
+- 1 Coulomb = **6.24 × 10¹⁸ electrons**.
+    
+- Represented by: **C**
+    
+
+---
+
+## 11. Ampere
+
+- 1 Ampere = **1 Coulomb of charge passing a point per second**.
+    
+- Unit of current: **Ampere (A)**.
+    
+
+---
+
+## 12. Potential
+
+- The **ability of a source** to perform electrical work.
+    
+- Difference in potential creates movement of electrons (emf / voltage).
+    
+
+---
+
+## 13. Voltage
+
+- The **driving force** that moves electrons through a circuit.
+    
+- Similar to **pressure in water pipes**.
+    
+- Represented by: **E**.
+    
+- Unit: **Volt (V)**.
+    
+
+---
+
+## 14. Resistance
+
+- The **opposition to the flow of electrons**.
+    
+- Depends on **size, shape, and temperature** of material.
+    
+- Unit: **Ohm (Ω)**.
+---

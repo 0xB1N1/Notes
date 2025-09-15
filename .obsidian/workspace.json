@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Try-Hack-Me/Command Line.md",
-                "mode": "source",
+                "file": "Fundamental-Of-Electronics/CH-1 Fundamental of Electricity.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Command Line"
+              "title": "CH-1 Fundamental of Electricity"
             }
           }
         ]
@@ -171,13 +171,13 @@
   },
   "active": "6df5985d13465876",
   "lastOpenFiles": [
+    "Try-Hack-Me/TCP Dump.md",
+    "Fundamental-Of-Electronics/CH-1 Fundamental of Electricity.md",
+    "Try-Hack-Me/Command Line.md",
     "Try-Hack-Me/Cryptography.md",
     "Try-Hack-Me/Linux Fundaments.md",
     "Try-Hack-Me/Networking Fundamental.md",
     "Try-Hack-Me/Windows Fundamentals.md",
-    "Try-Hack-Me/TCP Dump.md",
-    "Try-Hack-Me/Metasploit.md",
-    "Try-Hack-Me/Command Line.md",
-    "Fundamental-Of-Electronics/CH-1 Fundamental of Electricity.md"
+    "Try-Hack-Me/Metasploit.md"
   ]
 }
