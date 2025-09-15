@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Try-Hack-Me/Command Line.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -174,8 +174,8 @@
     "Try-Hack-Me/Cryptography.md",
     "Try-Hack-Me/Linux Fundaments.md",
     "Try-Hack-Me/Networking Fundamental.md",
-    "Try-Hack-Me/TCP Dump.md",
     "Try-Hack-Me/Windows Fundamentals.md",
+    "Try-Hack-Me/TCP Dump.md",
     "Try-Hack-Me/Metasploit.md",
     "Try-Hack-Me/Command Line.md",
     "Fundamental-Of-Electronics/CH-1 Fundamental of Electricity.md"

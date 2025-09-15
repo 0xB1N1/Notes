@@ -2,7 +2,7 @@
 ---
 date: 2025-08-21
 author: Sameer Saini
-reason: 
+reason: 0x45
 title: Windows Administration & Active Directory
 tags: [windows, ntfs, active-directory, kerberos, ntlm, sysadmin, filesystem]
 ---

@@ -1,10 +1,8 @@
-
-# TcpDump — CLI Packet Sniffer
-
 ```yaml
 ---
 date: 2025-09-15
 author: Sameer Saini
+reason: 0x45
 title: TcpDump Notes
 tags: [tcpdump, networking, cli, ctf, packet-capture]
 ---

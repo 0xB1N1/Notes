@@ -2,7 +2,7 @@
 ---
 date: 2025-08-29
 author: Sameer Sani
-reason: 
+reason: 0x45
 title: Imp of Cryptography (Notes)
 tags: [cryptography, ctf, notes]
 ---

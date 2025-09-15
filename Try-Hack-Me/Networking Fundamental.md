@@ -2,7 +2,7 @@
 ---
 date:  2025-09-15 
 author: Sameer Sani
-reason: Sleep
+reason: 0x45
 title: Networking & Secure Protocols (Notes)  
 tags: [networking, protocols, dns, tls, mail, obsidian]
 ---

@@ -1,12 +1,8 @@
-
-
-# Common Linux Directories & APT Package Management
-
 ```yaml
 ---
 date: 2025-08-20
 author: Sameer Saini
-reason: 
+reason: 0x45
 title: Common Linux Directories & APT Notes
 tags: [linux, directories, apt, sysadmin, notes]
 ---

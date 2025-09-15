@@ -1,7 +1,7 @@
 ```yml
 date: 2025-09-10  
 author: Sameer Saini  
-reason: 
+reason: 0x45
 title: Metasploit — Deep Notes (Obsidian-friendly)  
 tags: [metasploit, pentest, exploit, notes]
 ```
