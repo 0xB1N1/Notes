@@ -1,0 +1,252 @@
+```yaml
+---
+date:  2025-09-15 
+author: Sameer Sani
+reason: Sleep
+title: Networking & Secure Protocols (Notes)  
+tags: [networking, protocols, dns, tls, mail, obsidian]
+---
+```
+
+# DNS (Domain Name System)
+
+> DNS maps human-friendly domain names to IP addresses so you don't have to remember numbers.
+
+> [!tip] Quick commands: `dig`, `nslookup` — use `dig +short example.com` for concise answers.
+
+- **Purpose:** map names ↔ addresses
+    
+- **Common record types:**
+    
+    - `A` — IPv4 address
+        
+    - `AAAA` — IPv6 address
+        
+    - `PTR` — reverse lookup (IP → name)
+        
+    - `CNAME` — canonical name (alias → canonical host)
+        
+    - `MX` — mail exchanger (mail server for domain)
+        
+- **Transport:** UDP port **53** (typical); TCP port **53** used for zone transfers or when response size exceeds UDP limits.
+    
+
+> [!note]- DNS resolution flow (simplified)
+> 
+> 1. Resolver checks cache
+>     
+> 2. If not cached, query root → TLD → authoritative name server
+>     
+> 3. Authoritative server responds with record
+>     
+
+---
+
+# Whois
+
+- **Purpose:** retrieves domain registration details (registrant, registrar, creation/expiry dates, name servers, contact info).
+    
+- **Command:** `whois example.com`
+    
+
+---
+
+# HTTP / HTTPS (Hypertext Transfer Protocol)
+
+- **Transport:** TCP (application layer protocol running on top of TCP)
+    
+- **Ports:** HTTP = **80**, HTTPS = **443**
+    
+- **Common methods:** `GET`, `POST`, `PUT`, `DELETE`, `HEAD`, `OPTIONS`
+    
+
+> [!example] Raw HTTP request via `telnet` / `nc`
+> 
+> ```http
+> GET /index.html HTTP/1.1
+> Host: example.com
+> 
+> ```
+> 
+> (Press Enter twice after headers to send)
+
+---
+
+# FTP (File Transfer Protocol)
+
+- **Ports:** Command = **21**, Data = **20** (active mode)
+    
+- **Commands (protocol-level, visible in packet capture):**
+    
+    - `USER` — provide username
+        
+    - `PASS` — provide password
+        
+    - `RETR` — retrieve (download) a file
+        
+    - `STOR` — store (upload) a file
+        
+- **Anonymous login:** username `anonymous` (if server allows)
+    
+
+> [!tip] Passive vs Active FTP: passive avoids server-initiated data connections (useful with NAT/firewalls).
+
+---
+
+# SMTP (Simple Mail Transfer Protocol)
+
+- **Purpose:** sending mail (client → server) and server-to-server delivery
+    
+- **Port:** TCP **25** (submission often via 587; SMTPS uses 465/587)
+    
+
+**Basic SMTP session (example):**
+
+```smtp
+HELO mail.example.com
+MAIL FROM:<sender@example.com>
+RCPT TO:<recipient@example.com>
+DATA
+Subject: Test mail
+
+This is the body.
+.
+QUIT
+```
+
+---
+
+# POP3 (Post Office Protocol v3)
+
+- **Purpose:** retrieve mail from server (usually downloads and optionally deletes from server)
+    
+- **Port:** TCP **110** (POP3S = 995)
+    
+- **Key commands:**
+    
+    - `USER <username>`
+        
+    - `PASS <password>`
+        
+    - `STAT` — number of messages and total size
+        
+    - `LIST` — list messages and sizes
+        
+    - `RETR <msg#>` — fetch the message
+        
+    - `DELE <msg#>` — delete the message
+        
+    - `QUIT` — close session
+        
+
+> [!note] POP3 typically removes mail from the server after retrieval (unless client configured to leave copies).
+
+---
+
+# IMAP (Internet Message Access Protocol)
+
+- **Purpose:** access & manage mail on server (ideal for multi-device sync)
+    
+- **Port:** TCP **143** (IMAPS = 993)
+    
+- **Behaviours:** messages remain on server by default; client manipulates mailbox state (flags, folders)
+    
+- **Key commands:**
+    
+    - `LOGIN <user> <pass>`
+        
+    - `SELECT <mailbox>` — select folder (e.g., INBOX)
+        
+    - `FETCH <seq> <items>` — retrieve message parts (e.g., `FETCH 3 BODY[]`)
+        
+    - `SEARCH <criteria>` — find messages
+        
+    - `COPY <seq> <mailbox>` — copy message(s)
+        
+    - `MOVE <seq> <mailbox>` — move message(s)
+        
+    - `LOGOUT`
+        
+
+---
+
+# Networking Secure Protocols
+
+## TLS (Transport Layer Security)
+
+> TLS encrypts data between peers and is the modern replacement for SSL.
+
+- **Purpose:** provide confidentiality, integrity, and (optionally) authentication for application protocols (HTTP → HTTPS, IMAP/POP3/SMTP secure variants, DoT for DNS, etc.)
+    
+- **Certificate flow (short):**
+    
+    1. Generate a CSR (Certificate Signing Request)
+        
+    2. Submit CSR to a CA (Certificate Authority)
+        
+    3. CA validates identity and issues certificate
+        
+    4. Client trusts CA root certificates (preinstalled or system-managed)
+        
+- **Free CA option:** Let's Encrypt (automated issuance & renewal)
+    
+
+> [!tip] Simplified TLS handshake (non-exhaustive):  
+> `TCP SYN` → `SYN-ACK` → `ACK` → `ClientHello` → `ServerHello (+ certificate)` → `Key exchange` → `ChangeCipherSpec` → `Encrypted application data`
+
+![TLS Handshake Diagram — simplified](https://upload.wikimedia.org/wikipedia/commons/6/6a/TLS_handshake.svg)
+
+---
+
+## SMTPS / POP3S / IMAPS (secure variants)
+
+- These are the TLS-wrapped versions of SMTP/POP3/IMAP.
+    
+
+|Protocol|Common secure port(s)|
+|:-:|:-:|
+|**SMTPS**|465 (implicit TLS) / 587 (submission + STARTTLS)|
+|**POP3S**|995|
+|**IMAPS**|993|
+
+> [!tip] STARTTLS: begin with a plain-text connection then upgrade to TLS (used on ports like 587 for SMTP submission).
+
+---
+
+# Handy command cheatsheet (one-liners)
+
+- DNS quick: `dig +short example.com`
+    
+- Whois: `whois example.com`
+    
+- HTTP via netcat: `printf 'GET / HTTP/1.1\r\nHost: example.com\r\n\r\n' | nc example.com 80`
+    
+- Test SMTP: `nc smtp.example.com 25` then type SMTP commands
+    
+- FTP: `ftp <host>`
+    
+- POP3 test: `nc <mailserver> 110`
+    
+- IMAP test: `nc <mailserver> 143`
+    
+
+---
+
+# Obsidian formatting tips for this note
+
+> [!info]
+> 
+> - Use collapsible headings (folding) to keep sections tidy.
+>     
+> - Keep command/code blocks fenced with `bash or` http for copy/paste.
+>     
+> - Pin the cheatsheet section to the top of the note using `star` if you need quick access.
+>     
+
+---
+
+_If you want, I can now:_
+
+- convert this to an **Obsidian template** (YAML front-matter + tags + hotspots), or
+    
+- export as a single `.md` file for you to download and drop into your vault.
