@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fundamental-Of-Electronics/CH-1 Fundamental of Electricity.md",
-                "mode": "preview",
+                "file": "Try-Hack-Me/Metasploit Part 3.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CH-1 Fundamental of Electricity"
+              "title": "Metasploit Part 3"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "73ed2a5fc73fe8c5",
@@ -171,13 +172,16 @@
   },
   "active": "6df5985d13465876",
   "lastOpenFiles": [
-    "Try-Hack-Me/TCP Dump.md",
+    "Try-Hack-Me/Metasploit Part 1.md",
+    "Try-Hack-Me/Metasploit Part 3.md",
+    "Try-Hack-Me/Metasploit Part 2.md",
+    "Try-Hack-Me/Untitled.md",
     "Fundamental-Of-Electronics/CH-1 Fundamental of Electricity.md",
+    "Try-Hack-Me/TCP Dump.md",
     "Try-Hack-Me/Command Line.md",
     "Try-Hack-Me/Cryptography.md",
     "Try-Hack-Me/Linux Fundaments.md",
     "Try-Hack-Me/Networking Fundamental.md",
-    "Try-Hack-Me/Windows Fundamentals.md",
-    "Try-Hack-Me/Metasploit.md"
+    "Try-Hack-Me/Windows Fundamentals.md"
   ]
 }
