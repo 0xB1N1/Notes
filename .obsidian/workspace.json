@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "77e5d932f7e43cb5",
+        "id": "4df270b951522c08",
         "type": "tabs",
         "children": [
           {
-            "id": "6df5985d13465876",
+            "id": "19f6ba818722c8e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Try-Hack-Me/Metasploit Part 3.md",
+                "file": "Try-Hack-Me/SQL Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Metasploit Part 3"
+              "title": "SQL Fundamentals"
             }
           }
         ]
@@ -170,18 +170,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "6df5985d13465876",
+  "active": "19f6ba818722c8e3",
   "lastOpenFiles": [
-    "Try-Hack-Me/Metasploit Part 1.md",
-    "Try-Hack-Me/Metasploit Part 3.md",
+    "Try-Hack-Me/Command Line.md",
     "Try-Hack-Me/Metasploit Part 2.md",
+    "Try-Hack-Me/SQL Fundamentals.md",
+    "Try-Hack-Me/Web Application Basics.md",
+    "Try-Hack-Me/Networking Fundamental.md",
+    "Try-Hack-Me/Metasploit Part 3.md",
     "Try-Hack-Me/Untitled.md",
+    "Untitled",
+    "Pasted image 20250918173952.png",
+    "Try-Hack-Me/Metasploit Part 1.md",
     "Fundamental-Of-Electronics/CH-1 Fundamental of Electricity.md",
     "Try-Hack-Me/TCP Dump.md",
-    "Try-Hack-Me/Command Line.md",
     "Try-Hack-Me/Cryptography.md",
     "Try-Hack-Me/Linux Fundaments.md",
-    "Try-Hack-Me/Networking Fundamental.md",
     "Try-Hack-Me/Windows Fundamentals.md"
   ]
 }
