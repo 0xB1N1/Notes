@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Try-Hack-Me/Cyber 101/4.) Networking Fundamental.md",
+                "file": "Try-Hack-Me/Cyber 101/10.) Burp Suite.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.) Networking Fundamental"
+              "title": "10.) Burp Suite"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "73ed2a5fc73fe8c5",
@@ -171,13 +172,14 @@
   },
   "active": "19f6ba818722c8e3",
   "lastOpenFiles": [
+    "Try-Hack-Me/Cyber 101/4.) Networking Fundamental.md",
+    "Try-Hack-Me/Cyber 101/10.) Burp Suite.md",
     "Try-Hack-Me/Cyber 101/3.) Windows Fundamentals.md",
     "Try-Hack-Me/Cyber 101/2.) Linux Fundaments.md",
     "Try-Hack-Me/Cyber 101/1.) Command Line.md",
     "Try-Hack-Me/Cyber 101/6.) SQL Fundamentals.md",
     "Try-Hack-Me/Cyber 101/7.) Web Application Basics.md",
     "Try-Hack-Me/Cyber 101/5.) TCP Dump.md",
-    "Try-Hack-Me/Cyber 101/4.) Networking Fundamental.md",
     "Try-Hack-Me/Metasploit Part 3.md",
     "Try-Hack-Me/9.) Metasploit.md",
     "Try-Hack-Me/Metasploit Part 2.md",
