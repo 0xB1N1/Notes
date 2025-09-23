@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Try-Hack-Me/Cyber 101/10.) Burp Suite.md",
-                "mode": "preview",
+                "file": "Foundational Math/1. Polynomial & Quadratic Equation.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.) Burp Suite"
+              "title": "1. Polynomial & Quadratic Equation"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "73ed2a5fc73fe8c5",
@@ -172,8 +171,10 @@
   },
   "active": "19f6ba818722c8e3",
   "lastOpenFiles": [
-    "Try-Hack-Me/Cyber 101/4.) Networking Fundamental.md",
     "Try-Hack-Me/Cyber 101/10.) Burp Suite.md",
+    "Foundational Math/1. Polynomial & Quadratic Equation.md",
+    "Foundational Math",
+    "Try-Hack-Me/Cyber 101/4.) Networking Fundamental.md",
     "Try-Hack-Me/Cyber 101/3.) Windows Fundamentals.md",
     "Try-Hack-Me/Cyber 101/2.) Linux Fundaments.md",
     "Try-Hack-Me/Cyber 101/1.) Command Line.md",
@@ -188,7 +189,6 @@
     "Try-Hack-Me/Web Application Basics.md",
     "Try-Hack-Me/Networking Fundamental.md",
     "Try-Hack-Me/Untitled.md",
-    "Untitled",
     "Pasted image 20250918173952.png",
     "Fundamental-Of-Electronics/CH-1 Fundamental of Electricity.md",
     "Try-Hack-Me/TCP Dump.md",
