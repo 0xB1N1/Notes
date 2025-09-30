@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Try-Hack-Me/Cyber 101/16.) Digital Forensic Fundamental.md",
+                "file": "Try-Hack-Me/Cyber 101/18. Fundamental Of Firewall.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16.) Digital Forensic Fundamental"
+              "title": "18. Fundamental Of Firewall"
             }
           }
         ]
@@ -169,10 +169,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "3d3c6b0b343d3949",
+  "active": "0674f9a568648bb2",
   "lastOpenFiles": [
-    "Try-Hack-Me/Cyber 101/11.) SOC Fundamental.md",
+    "Try-Hack-Me/Cyber 101/17.) Logs Fundamentals.md",
+    "Try-Hack-Me/Cyber 101/18. Fundamental Of Firewall.md",
+    "Try-Hack-Me/Cyber 101/17.) Incident Response Fund..md",
     "Try-Hack-Me/Cyber 101/16.) Digital Forensic Fundamental.md",
+    "Try-Hack-Me/Cyber 101/11.) SOC Fundamental.md",
     "Try-Hack-Me/Cyber 101/15.) SQLMAP.md",
     "Try-Hack-Me/Cyber 101/14.) Shell Overview.md",
     "Try-Hack-Me/Cyber 101/13.) Gobuster.md",
@@ -195,9 +198,6 @@
     "Try-Hack-Me/SQL Fundamentals.md",
     "Try-Hack-Me/Web Application Basics.md",
     "Try-Hack-Me/Networking Fundamental.md",
-    "Pasted image 20250918173952.png",
-    "Fundamental-Of-Electronics/CH-1 Fundamental of Electricity.md",
-    "Try-Hack-Me/TCP Dump.md",
-    "Try-Hack-Me/Cryptography.md"
+    "Pasted image 20250918173952.png"
   ]
 }
